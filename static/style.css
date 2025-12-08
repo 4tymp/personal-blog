@@ -1,0 +1,31 @@
+body{
+    background-color: darkgreen;
+}
+
+div{
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    padding: 10px;
+    background-color: beige;
+    border: 2px solid white;
+}
+
+header{
+    text-align: center;
+    color: darkred;
+    text-align: center;
+}
+
+nav{
+    float:left
+}
+
+main{
+    float: left;
+    color: azure;
+}
+
+footer{
+    clear: both;
+}
