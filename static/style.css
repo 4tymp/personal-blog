@@ -1,5 +1,14 @@
+header h1{
+    display: inline;
+}
+
+.right{
+    float: right;
+}
+
 body{
     background-color: darkgreen;
+    text-decoration: none;
 }
 
 div{

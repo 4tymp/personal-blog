@@ -24,3 +24,7 @@ def login():
             result = False
 
     return render_template("login.html", result=result)
+
+@app.route("/admin")
+def admin():
+    return render_template("admin.html")
