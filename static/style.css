@@ -23,7 +23,8 @@ nav{
 
 main{
     float: left;
-    color: azure;
+    text-align: center;
+    margin-left: 25%;
 }
 
 footer{
