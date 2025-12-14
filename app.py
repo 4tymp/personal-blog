@@ -28,3 +28,7 @@ def login():
 @app.route("/admin")
 def admin():
     return render_template("admin.html")
+
+@app.route("/add")
+def add():
+    return render_template("add.html")
