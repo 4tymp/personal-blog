@@ -21,11 +21,20 @@
         </nav>
         <main>
             <h3>Podaj dane:</h3>
-            <form method="post">
+            <form method="POST">
                 <input type="text" placeholder="login" name="login">
-                <input type="text" placeholder="hasło" name="password">
+                <input type="password" placeholder="hasło" name="password">
                 <input type="submit" name="loguj">
             </form>
+
+            {% if result is not none%}
+                {% if result == True %}
+                <p>Podano poprawne dane.</p>
+                <a href="/admin">Kontynuuj</a>
+                {% elif result == False%}
+                <p>Wpisano błędne dane.</p>
+                {% endif %}
+            {% endif %}
         </main>
         <footer>
             
